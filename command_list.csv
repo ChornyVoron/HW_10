@@ -1,0 +1,64 @@
+    1  git clone HW_10
+    2  git clone 'HW_10'
+    3  git config --global user.name "Galyna Stetsuk"
+    4  git config --global user.email stetsukgl@ukr.net
+    5  git clone 'HW_10'
+    6  git status
+    7  git clone https://github.com/ChornyVoron/HW_10.git
+    8  cd HW_10
+    9  touch text-ignore.txt
+   10  nano text-ignore.txt
+   11  git status
+   12  git add
+   13  git add 'text-ignore.txt'
+   14  git commit -m "New text"
+   15  touch main_test.txt
+   16  git add 'main_test.txt'
+   17  commit -m "New fail"
+   18  git commit -m "New file"
+   19  git checkout -b branch_develop
+   20  git checkout branch_develop
+   21  touch develop-test.txt
+   22  git add 'develop-test.txt'
+   23  git commit -m 'New document'
+   24  nano develop_test.txt
+   25  git status
+   26  git add 'develop_test.txt'
+   27  git commit -m 'New text'
+   28  git checkout branch_main
+   29  git status
+   30  git checkout branch_main
+   31  git branch
+   32  git checkout main
+   33  git merge branch_develop
+   34  git log
+   35  history > command_list.cvs
+   36  git add 'command_list.cvs'
+   37  git commit -m 'Final'
+   38  git push
+   39  git push
+   40  git clone https://github.com/ChornyVoron/HW_10.git
+   41  cd HW_10
+   42  touch 'text_ignore.txt'
+   43  nano text_ignore.txt
+   44  git status
+   45  git add 'text_ignore.txt'
+   46  commit -m 'text_ignore.txt'
+   47  touch 'main_test.txt'
+   48  git add 'main_test.txt'
+   49  commit -m 'main_test.txt'
+   50  git checkout -b branch_develop
+   51  git checkout branch_develop
+   52  touch 'develop_test.txt'
+   53  git add 'develop_test.txt'
+   54  git commit -m 'develop_test.txt'
+   55  nano develop_test.txt
+   56  git status
+   57  nano develop_test.txt
+   58  git status
+   59  git add 'develop_test.txt'
+   60  cjmmit -m 'develop_test.txt'
+   61  git checkout main
+   62  git marge branch_develop
+   63  git log
+   64  history>command_list.csv
